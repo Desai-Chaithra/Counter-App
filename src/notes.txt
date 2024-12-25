@@ -1,0 +1,104 @@
+imp commands:
+--------------
+npm start -> runs the app in dev mode in chrome browser
+ctrl + c -> to stop the application
+npm test -> we can write unit test for react apps
+npm run build -> build a production deployable unit 
+1. minified
+2. optimized performance
+
+npm install --save react-router-dom : add a dependency to your project
+
+vs code:
+--------
+ctrl + 
+ctrl + 
+ctrl + 
+toggle -> we can select specific file under a specific folder 
+
+ctrl + p -> to launch up a specific file
+extensions -> we can add a lot of extensions to the vs code
+npm automatically builds and renders in the browser
+we can also see logs
+
+react folder structure:-
+readme.md -> contains documentation
+package.json -> contains dependencies
+node modules -> all dependencies will be downloaded to this package
+react initialization ->
+index.html -> first loaded into the browser
+src/index.js -> loads/populates the app component
+index.css -> general styling
+we can have component specific css too;
+app.test.js -> unit tests
+
+why do we need react components
+create seperate component for each elements
+helps in modularization
+reuse components better
+like -> header, footer, todo component
+
+understanding components
+app.js -> first compoent that will be loaded
+view -> html jsx or javascript
+logic -> js
+styling -> css
+state->internal data store
+props -> pass data between components
+name of a compoent should always start with a capital lletter
+
+state -> data or info about a specific components
+hooks were introduced in 16.8
+hooks allow states to function components also
+
+why do we use parenthesis in reutrn()
+jsx -> javascript xml
+it is strciter than html
+close tags are mandatory
+only top level tags are allowed
+each opening tag should be closed
+jsx expressions must have a parent around them
+jsx is much stricter than html
+or else we can use empty wrapper also
+
+diff browsers have different support levels for modern JS features
+how to ensure backward compatablity ->
+babel ensures backeard compatablity for modern js
+it understands jsx and converts them to js so that all browser can understand it
+
+
+for a single file we should have only 1 export default only
+to import multiple compoents from a single file we shoud use only export and use {} while importing them to the parent file
+like import {Component name} from
+
+// you can store a function in an object
+
+state: built-in react object used to contain data or information about compoent
+
+in earlier versions of react, only class compoent can have state
+hooks were introduced in 16.8
+useState-> hooks allows state to function components
+useState -> current state and functioon to update the state
+each instance of component has its own state.;
+how to share state between components?
+move state upwards(to a parent compoent)
+
+whats happening in background?
+how can you update an html element ->
+a html apge is represented by dom
+each element in a html page is a node in the dom
+you need to update the dom to the update the elements
+however, writing code to update the dom can be a complex and slow
+
+
+react takes a different appraoch -> 
+virtualr epresentation of the UI kepty in the memory
+react uppdates the virtual dom
+react identifies changes and synchronises them to the HTML page
+react creates virtual DOM v1 on load of the page
+you perform an action
+
+
+props -> used for the things that remain a constant during lifetime of a component (ex- increment compoent)
+
+chrome developer tool extension 
